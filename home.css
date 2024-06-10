@@ -1,4 +1,20 @@
+
+body{
+
+margin: 5px;
+font-family: Arial, sans-serif;
+flex-wrap: wrap;
+justify-content: space-around;
+
+
+}
+
+
+
+
+
 /* Estilos para o cabeçalho */
+
 h1 {
   background-color: red;
   text-align: center;
@@ -11,7 +27,7 @@ h1 {
 /* Estilos para a lista de navegação */
 ul {
   list-style-type: none;
-  margin: 5px;
+  margin: 1px;
   padding: 10px;
   overflow: hidden;
   background-color: #333;
@@ -37,6 +53,9 @@ li a {
 .active {
   background-color: #ff0000;
   border-radius: 5px;
+ 
+    background-color: #04AA6D;
+
 }
 
 /* Estilos para os links quando passa o mouse por cima na lista de navegação */
@@ -46,7 +65,7 @@ li a:hover {
 }
 
 /* Estilos para imagens dentro da lista de navegação */
-img {
+.center{
 
   border-radius: 10px;
   height: 200px;
@@ -68,10 +87,11 @@ h2 {
 footer {
   background-color: #ff0000;
   border-radius: 5px;
-  text-align: center;
-  padding: 5px;
-  bottom: 0;
+  text-align: right;
+  padding: 1px;
   width: 100%;
+  margin: 1px;
+  margin-top: 5px;
 }
 
 /* Estilos para a lista dentro do rodapé */
@@ -94,10 +114,6 @@ ol {
   float: right;
 }
 
-.pe a{
-  color: rgba(252, 252, 252, 0.907);
-  
-}
 
 .active {
   background-color: #ff0000;
@@ -137,18 +153,24 @@ float: right;
   transition-property: box-shadow;
 }
 
-.card {
+.fotherline{
+
   width: fit-content;
   height: fit-content;
+  text-align: right;
+
+
+}
+
+.card1 { 
+  margin-left: 20px;
+  width: 400px;
   display: flex;
-  align-items: right;
-  justify-content: center;
-  padding: 25px 25px;
-  gap: 20px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
-  float: right;
+  justify-content: flex;
   padding: 10px;
-  width: 100%;
+  gap: 20px;
+  box-shadow: 0px 0px 20px rgba(139, 138, 138, 0.055);
+    text-align: right;
 }
 
 /* for all social containers*/
@@ -241,7 +263,7 @@ align-items: center;
   padding: 25px;
   box-sizing: border-box;
   overflow: hidden; /* Evita que o conteúdo da caixa transborde */
-
+  margin-top: 5px;
 }
 
 .imagem {
@@ -257,4 +279,39 @@ align-items: center;
   color: #333; /* Cor do texto do link */
   display: block; /* Faz o link ocupar todo o espaço disponível */
   cursor: pointer; /* Altera o cursor para indicar que é clicável */
+}
+
+/* video*/
+
+video{
+
+  width: 80%;
+  margin: 2 auto;
+  border: 1px solid #ccc;
+  padding: 25px;
+  box-sizing: border-box;
+  overflow: hidden; 
+}
+
+.caixa-lateral{
+  width: 200px;
+  height: 900px;
+  margin: auto;
+  margin-right:2px;
+  margin-top: 20px;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+  overflow: hidden; /* Evita que o conteúdo da caixa transborde */
+  padding:1%;
+  position: absolute;
+  right: 1%;
+  
+}
+
+.imagem1{
+  width: 170px;
+  height: 100px;
+  border-radius: 5px;
+  background-image: 50%  ;
+
 }
